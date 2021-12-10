@@ -1,10 +1,14 @@
 *.bak
+*.json
 *.log
+*.md
+*.sh
 *.swo
 *.swp
-._*
+*.txt
 .DS_Store
-.eslintcache
+._*
 
 /.git
 /node_modules
+/dist
