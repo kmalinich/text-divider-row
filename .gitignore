@@ -1,4 +1,6 @@
 *.bak
+*.br
+*.gz
 *.log
 *.swo
 *.swp
