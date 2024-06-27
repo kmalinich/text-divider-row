@@ -1,5 +1,5 @@
 export interface TextDividerRowConfig {
-  type: string;
-  text: string;
-  align: string;
+	type: string;
+	text: string;
+	align: string;
 }

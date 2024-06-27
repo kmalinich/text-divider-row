@@ -1,17 +1,21 @@
 {
-  "compilerOptions": {
-    "target": "es2017",
-    "module": "esnext",
-    "moduleResolution": "node",
-    "lib": ["es2017", "dom", "dom.iterable"],
-    "noEmit": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "strict": true,
-    "noImplicitAny": false,
-    "skipLibCheck": true,
-    "resolveJsonModule": true,
-    "experimentalDecorators": true
-  }
+	"compilerOptions": {
+		"experimentalDecorators": true,
+		"lib": [
+			"es2021",
+			"dom",
+			"dom.iterable"
+		],
+		"module": "esnext",
+		"moduleResolution": "node",
+		"noEmit": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitAny": false,
+		"noImplicitReturns": true,
+		"noUnusedParameters": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"target": "es2021"
+	}
 }

@@ -6,11 +6,18 @@ import { customElement, property } from 'lit/decorators.js';
 import { TextDividerRowConfig } from './types';
 import { CARD_VERSION } from './const';
 
+const prop0 = 'font-family: "appleSF", system-ui, -apple-system, BlinkMacSystemFont;';
+const prop1 = 'color: #fff;';
+const prop2 = 'padding: 1px 1px 2px 2px;';
+const prop3 = 'text-shadow: 0 1px 3px #000000aa;';
+const props = `${prop0} ${prop1} ${prop2} ${prop3}`;
+
 /* eslint no-console: 0 */
 console.info(
-	`%c  TEXT-DIVIDER-ROW  \n%c  Version ${CARD_VERSION}     `,
-	'color: orange; font-weight: bold; background: black',
-	'color: white; font-weight: bold; background: dimgray'
+	'%c text-divider-row %c v${CARD_VERSION} %c',
+	`${props} border-radius: 3px 0 0 3px; background-color: #444;`,
+	`${props} border-radius: 0 3px 3px 0; background-image: linear-gradient(90deg, #a74cac, #11aacb);`,
+	'background-color: transparent'
 );
 
 @customElement('text-divider-row')

@@ -144,7 +144,7 @@ module.exports = {
 		'no-shadow-restricted-names'   : 'error',
 		'no-sparse-arrays'             : 'error',
 		'no-tabs'                      : 'off',
-		'no-template-curly-in-string'  : 'error',
+		'no-template-curly-in-string'  : 'off',
 		'no-this-before-super'         : 'error',
 		'no-throw-literal'             : 'error',
 		'no-trailing-spaces'           : 'error',
