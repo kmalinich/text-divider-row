@@ -94,7 +94,7 @@ class TextDividerRow extends LitElement {
 
 			.text-divider span {
 				background: var(--primary-background-color);
-				color: var(--divider-color);
+				color: var(--primary-text-color);
 				font-size: var(--font-size);
 				padding: var(--text-divider-padding, 1em);
 			}
