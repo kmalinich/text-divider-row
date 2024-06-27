@@ -14,7 +14,7 @@ const props = `${prop0} ${prop1} ${prop2} ${prop3}`;
 
 /* eslint no-console: 0 */
 console.info(
-	'%c text-divider-row %c v${CARD_VERSION} %c',
+	`%c text-divider-row %c v${CARD_VERSION} %c`,
 	`${props} border-radius: 3px 0 0 3px; background-color: #444;`,
 	`${props} border-radius: 0 3px 3px 0; background-image: linear-gradient(90deg, #a74cac, #11aacb);`,
 	'background-color: transparent'
