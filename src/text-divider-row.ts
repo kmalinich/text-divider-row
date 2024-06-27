@@ -71,7 +71,7 @@ class TextDividerRow extends LitElement {
 
 			.text-divider {
 				border-bottom: var(--line-size) solid var(--divider-color);
-				line-height: 0;
+				line-height: 8px;
 				margin: var(--text-divider-margin, 1em 0);
 				width: 100%;
 			}
